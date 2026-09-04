@@ -50,6 +50,54 @@ src/main/java/com/jyothi/jobapplicationtracker/
 | PUT | `/api/applications/{id}` | Update an application |
 | DELETE | `/api/applications/{id}` | Delete an application |
 
+## Sample API Requests
+
+
+
+### Get a Job Application by ID
+
+**GET** `/api/applications/1`
+
+### Update a Job Application
+
+**PUT** `/api/applications/1`
+
+### Delete a Job Application
+
+**DELETE** `/api/applications/1`
+## Sample API Requests
+
+### Create a Job Application
+
+**POST** `/api/applications`
+
+```json
+{
+  "companyName": "Google",
+  "jobRole": "Software Engineer",
+  "location": "Bengaluru",
+  "status": "APPLIED",
+  "appliedDate": "2026-09-04",
+  "jobUrl": "https://careers.google.com/",
+  "notes": "Applied through careers page"
+}
+```
+
+### Get All Job Applications
+
+**GET** `/api/applications`
+
+### Get a Job Application by ID
+
+**GET** `/api/applications/1`
+
+### Update a Job Application
+
+**PUT** `/api/applications/1`
+
+### Delete a Job Application
+
+**DELETE** `/api/applications/1`
 ## Database Configuration
 
 The application uses MySQL.
